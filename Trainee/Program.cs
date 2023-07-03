@@ -96,7 +96,69 @@ double radius = 2.50;
 double area = Math.PI * radius * radius;
 Console.WriteLine(area);
 Console.WriteLine();
-//
+
+//Loop
 Program1.method1();
+Console.WriteLine();
 
+//Array List Collection
+//var names = new List<string> { "<name>", "Harsh", "Elina" };
+//foreach (var name in names)
+//{
+//    Console.WriteLine($"Hello {name.ToUpper()}!");
+//    Console.WriteLine();
+//}
+//alternative methoid
 
+//var names = new List<string> { "<name>", "Harsh", "Elina" };
+//for (int i = 0;i < names.Count; i++)
+//{
+//    Console.WriteLine($"Hello {names[i].ToUpper()}");
+//    Console.WriteLine();
+//}
+
+//Search sort and index
+//var names= new List<string> { "Harmeet", "Anam", "Raj", "Aman" };
+//string name = "Anam";
+//var index = names.IndexOf(name);
+//Console.WriteLine($"Found {name} at {index}");
+
+//var names = new List<string> { "Harmeet", "Anam", "Raj", "Aman" };
+//string name = "Harsh";
+//var index = names.IndexOf(name);
+//if(index == -1){
+//    Console.WriteLine($"{name} not found");
+//} else {
+//    Console.WriteLine($"Found {names[index]} at {index}");
+//}
+//var names = new List<string> { "Harmeet", "Anam", "RAj", "Elina" };
+//Console.WriteLine("Pre Sorting:");
+//foreach(var name in names )
+//{
+//    Console.WriteLine(name);
+//}
+
+//names.Sort();
+
+//Console.WriteLine();
+//Console.WriteLine("Post Sorting:");
+//foreach(var name in names )
+//{
+//    Console.WriteLine(name);
+//}
+
+//List of other type
+//var fibonacciNumbers = new List<int> {1, 1};
+
+//foreach (var item in fibonacciNumbers)
+//    Console.WriteLine(item);
+
+var fibonacciNumbers = new List<int> {1, 1}; //List basic s start krenge
+
+var previous = fibonacciNumbers[fibonacciNumbers.Count - 1]; // last number in the list
+var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2]; //  second to last number in the list
+
+fibonacciNumbers.Add(previous + previous2); // phle wale number ko sath jodna h, aur attach krna h end p
+
+foreach (var item in fibonacciNumbers) // Print out the list
+    Console.WriteLine(item);

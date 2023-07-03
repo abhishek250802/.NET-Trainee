@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=AutoRecoverer/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=Format/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=Roslyn_002Dswea/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=ShowAnnotations/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=StartPage_002DIsDownloadRefreshEnabled/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=StartPage_002DOnEnvironmentStatup/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=SyncSettings/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=TextEditor_002DCodeLens/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=TextEditor_002DTrackChanges_002D2/@EntryIndexedValue">NOTIFY</s:String>
+	<s:String x:Key="/Default/Environment/PerformanceGuide/SwitchConflictResolutionMode/=XAML_0020Designer/@EntryIndexedValue">NOTIFY</s:String></wpf:ResourceDictionary>
